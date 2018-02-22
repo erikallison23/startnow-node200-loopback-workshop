@@ -1,14 +1,13 @@
 {
   "db": {
     "name": "db",
-    "url":"mongodb://heroku_tq5ph17k:35cnh3t34k0n5slfvqph1du7hj@ds245518.mlab.com:45518/heroku_tq5ph17k",
-    "connector": "mongodb"
+    "connector": "memory"
   },
   "MongoDB": {
     "host": "",
     "port": 0,
     "url": "",
-    "database": "",
+    "database": "loopback_workshop",
     "password": "",
     "name": "MongoDB",
     "user": "",
