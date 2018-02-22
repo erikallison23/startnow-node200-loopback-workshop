@@ -1,3 +1,4 @@
+console.log('using production datasource', process.env.MONGODB_URI);
 module.exports = {
     "db": {
       "name": "db",
