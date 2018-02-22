@@ -1,7 +1,8 @@
 {
   "db": {
     "name": "db",
-    "connector": "memory"
+    "url":"mongodb://heroku_tq5ph17k:35cnh3t34k0n5slfvqph1du7hj@ds245518.mlab.com:45518/heroku_tq5ph17k",
+    "connector": "mongodb"
   },
   "MongoDB": {
     "host": "",

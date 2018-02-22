@@ -5,7 +5,9 @@
   "initial": {
 
     "morgan": {
-      "params": ["dev", { "buffer": true } ]
+      "params": ["dev", {
+        "buffer": true
+      }]
     },
     "compression": {},
     "cors": {
@@ -34,7 +36,7 @@
       "enabled": false
     }
 
-    
+
   },
   "session": {},
   "auth": {},
@@ -46,9 +48,11 @@
       ]
     }
   },
-  "files": {"loopback#static": {
-    "params": "$!../client"
-  }},
+  "files": {
+    "loopback#static": {
+      "params": "$!../client"
+    }
+  },
   "final": {
     "loopback#urlNotFound": {}
   },
